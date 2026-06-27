@@ -1,6 +1,6 @@
 ---
 name: shangdaoji-live-activity
-description: Use when the user wants to save a Shangdaoji / 上岛记 p2ia token locally, create or schedule a Shangdaoji Live Activity on their phone, cancel an activity_id, create meal pickup-code activities, note reminders, courier pickup activities, or pass Luckin order pickup-code data into a Shangdaoji Live Activity.
+description: "Use when the user wants Shangdaoji / 上岛记 iPhone Live Activity or Dynamic Island / 灵动岛 help: save a p2ia token locally, create or schedule pickup-code activities for meals, courier pickup codes / 取件码, note reminders, Luckin / 瑞幸 orders, or cancel a Shangdaoji Live Activity by activity_id."
 ---
 
 # Shangdaoji Live Activity
