@@ -1,11 +1,11 @@
 ---
 name: shangdaoji-live-activity
-description: "Use when the user wants Shangdaoji / 上岛记 iPhone Live Activity or Dynamic Island / 灵动岛 help: save a p2ia token locally, create or schedule pickup-code activities for meals, courier pickup codes / 取件码, note reminders, Luckin / 瑞幸 orders, or cancel a Shangdaoji Live Activity by activity_id."
+description: "Use when the user wants PinToIsland / pintoisland / Shangdaoji / 上岛记 iPhone Live Activity or Dynamic Island / 灵动岛 help: save a p2ia token locally, create or schedule pickup-code activities for meals, courier pickup codes / 取件码, note reminders, Luckin / 瑞幸 orders, or cancel a PinToIsland Live Activity by activity_id."
 ---
 
-# Shangdaoji Live Activity
+# PinToIsland Live Activity
 
-Use the Shangdaoji Live Activity HTTP API. Never ask for or construct internal Live Activity fields.
+Use the PinToIsland (Shangdaoji / 上岛记) Live Activity HTTP API. Never ask for or construct internal Live Activity fields.
 
 API:
 

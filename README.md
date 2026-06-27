@@ -1,8 +1,8 @@
-# 上岛记实时活动 Skill / Shangdaoji Live Activity Skill
+# 上岛记实时活动 Skill / PinToIsland Live Activity Skill
 
 ## 中文
 
-这是一个 Codex Skill，用于通过上岛记实时活动 API 在 iPhone 上创建、定时或取消实时活动，适合把取餐码、取件码、瑞幸订单和提醒展示到 Live Activity / 灵动岛。
+这是一个 Codex Skill，用于通过上岛记（PinToIsland）实时活动 API 在 iPhone 上创建、定时或取消实时活动，适合把取餐码、取件码、瑞幸订单和提醒展示到 Live Activity / 灵动岛。
 
 它只发送业务字段，例如取餐码、店名、商品名、提醒标题和提醒内容；不会要求用户填写或构造内部 Live Activity payload。
 
@@ -32,7 +32,7 @@
 
 ## English
 
-This is a Codex Skill for creating, scheduling, and canceling Shangdaoji Live Activities on iPhone through the Shangdaoji Live Activity API. It helps show pickup codes, courier pickup codes, Luckin orders, and reminders in Live Activity / Dynamic Island.
+This is a Codex Skill for creating, scheduling, and canceling PinToIsland Live Activities on iPhone through the PinToIsland Live Activity API. It helps show pickup codes, courier pickup codes, Luckin orders, and reminders in Live Activity / Dynamic Island.
 
 It sends only business fields such as pickup codes, store names, product names, reminder titles, and reminder content. It does not ask users to fill in or construct internal Live Activity payloads.
 
@@ -42,20 +42,20 @@ It sends only business fields such as pickup codes, store names, product names, 
 - Creates meal pickup-code Live Activities
 - Creates reminder Live Activities
 - Cancels Live Activities by `activity_id`
-- Maps Luckin order details into Shangdaoji pickup-code activities
+- Maps Luckin order details into PinToIsland pickup-code activities
 
 ### Usage
 
 After installing this repository as a Codex skill, ask:
 
 ```text
-Use Shangdaoji to create pickup code A123 for Luckin Coffee.
+Use PinToIsland to create pickup code A123 for Luckin Coffee.
 ```
 
 Or:
 
 ```text
-Use Shangdaoji to remind me to eat at noon.
+Use PinToIsland to remind me to eat at noon.
 ```
 
 First use requires a token in the `p2ia_...` format.
