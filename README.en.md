@@ -14,6 +14,20 @@ It sends only business fields such as pickup codes, store names, product names, 
 - Cancels Live Activities by `activity_id`
 - Maps Luckin order details into PinToIsland pickup-code activities
 
+## Setup
+
+1. Download [PinToIsland](https://apps.apple.com/cn/app/%E4%B8%8A%E5%B2%9B%E8%AE%B0-%E5%8F%96%E9%A4%90%E7%A0%81%E5%8F%96%E4%BB%B6%E7%A0%81%E5%8A%A9%E6%89%8B/id6754898359) from the App Store.
+2. Open PinToIsland, sign in when prompted, and allow notifications and Live Activities.
+3. Open PinToIsland settings and choose `AI Agent Authorization`.
+4. Tap `Generate and Copy Authorization Instructions`. Generating a new token revokes the old one.
+5. Paste the copied authorization instructions into a compatible AI agent and ask it to save the `p2ia_...` token.
+
+You can say:
+
+```text
+Save this PinToIsland Live Activity token: <paste the copied authorization instructions>
+```
+
 ## Usage
 
 After installing this repository as a skill in Codex or another compatible agent, ask:
