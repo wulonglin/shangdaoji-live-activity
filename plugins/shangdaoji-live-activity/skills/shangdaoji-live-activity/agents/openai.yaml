@@ -1,0 +1,4 @@
+interface:
+  display_name: "PinToIsland 实时活动"
+  short_description: "创建 PinToIsland / 上岛记灵动岛取餐码"
+  default_prompt: "Use $shangdaoji-live-activity to create a PinToIsland Live Activity reminder."

@@ -1,0 +1,39 @@
+{
+  "name": "shangdaoji-live-activity",
+  "version": "0.1.0",
+  "description": "Create PinToIsland / Shangdaoji Live Activities for pickup codes, reminders, and Luckin orders.",
+  "author": {
+    "name": "wulonglin",
+    "url": "https://github.com/wulonglin"
+  },
+  "homepage": "https://github.com/wulonglin/shangdaoji-live-activity",
+  "repository": "https://github.com/wulonglin/shangdaoji-live-activity",
+  "keywords": [
+    "pintoisland",
+    "shangdaoji",
+    "live-activity",
+    "dynamic-island",
+    "pickup-code",
+    "ios",
+    "luckin",
+    "reminder",
+    "ai-skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PinToIsland Live Activity",
+    "shortDescription": "Create PinToIsland pickup codes and reminders for Live Activity.",
+    "longDescription": "Create, schedule, and cancel PinToIsland / Shangdaoji Live Activities for pickup codes, courier codes, Luckin orders, and reminders.",
+    "developerName": "wulonglin",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Save my PinToIsland token.",
+      "Create a pickup-code Live Activity.",
+      "Cancel a PinToIsland activity."
+    ],
+    "brandColor": "#0EA5E9"
+  }
+}
