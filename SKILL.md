@@ -1,17 +1,17 @@
 ---
-name: shangdaoji-agent
-description: Use when the user wants to save a Shangdaoji / 上岛记 AgentToken locally, create or schedule a Shangdaoji Live Activity on their phone, cancel an activity_id, create meal pickup-code activities, note reminders, courier pickup activities, or pass Luckin order pickup-code data into Shangdaoji.
+name: shangdaoji-live-activity
+description: Use when the user wants to save a Shangdaoji / 上岛记 p2ia token locally, create or schedule a Shangdaoji Live Activity on their phone, cancel an activity_id, create meal pickup-code activities, note reminders, courier pickup activities, or pass Luckin order pickup-code data into a Shangdaoji Live Activity.
 ---
 
-# Shangdaoji Live Activity Agent
+# Shangdaoji Live Activity
 
-Use the Shangdaoji Agent HTTP API. Never ask for or construct internal Live Activity fields.
+Use the Shangdaoji Live Activity HTTP API. Never ask for or construct internal Live Activity fields.
 
 API:
 
 ```text
 POST https://wulonglin.xyz/api/agent_activity.php
-Authorization: Bearer <AgentToken>
+Authorization: Bearer <p2ia_token>
 Content-Type: application/json
 ```
 
@@ -21,7 +21,7 @@ If the user says to remember/save a token, extract the `p2ia_...` token and stor
 
 ```bash
 mkdir -p ~/.config/shangdaoji
-printf '%s' '<AgentToken>' > ~/.config/shangdaoji/agent-token
+printf '%s' '<p2ia_token>' > ~/.config/shangdaoji/agent-token
 chmod 600 ~/.config/shangdaoji/agent-token
 ```
 
@@ -31,7 +31,7 @@ Do not print the saved token back. If a later request has no token, read:
 TOKEN=$(cat ~/.config/shangdaoji/agent-token)
 ```
 
-If no token is present in the message and the file is missing, ask the user to paste an AgentToken.
+If no token is present in the message and the file is missing, ask the user to paste a `p2ia_...` token.
 
 ## Create
 

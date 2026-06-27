@@ -1,4 +1,4 @@
 interface:
   display_name: "上岛记实时活动"
-  short_description: "用 AgentToken 创建和取消上岛记实时活动"
-  default_prompt: "Use $shangdaoji-agent to create a Shangdaoji Live Activity reminder."
+  short_description: "创建和取消上岛记实时活动"
+  default_prompt: "Use $shangdaoji-live-activity to create a Shangdaoji Live Activity reminder."
