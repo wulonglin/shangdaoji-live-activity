@@ -3,7 +3,7 @@ name: shangdaoji-agent
 description: Use when the user wants to save a Shangdaoji / 上岛记 AgentToken locally, create or schedule a Shangdaoji Live Activity on their phone, cancel an activity_id, create meal pickup-code activities, note reminders, courier pickup activities, or pass Luckin order pickup-code data into Shangdaoji.
 ---
 
-# Shangdaoji Agent
+# Shangdaoji Live Activity Agent
 
 Use the Shangdaoji Agent HTTP API. Never ask for or construct internal Live Activity fields.
 

@@ -1,0 +1,61 @@
+# 上岛记实时活动 Agent Skill / Shangdaoji Live Activity Agent Skill
+
+## 中文
+
+这是一个 Codex Skill，用于通过上岛记 Agent API 在 iPhone 上创建、定时或取消实时活动。
+
+它只发送业务字段，例如取餐码、店名、商品名、提醒标题和提醒内容；不会要求用户填写或构造内部 Live Activity payload。
+
+### 能做什么
+
+- 保存本地 `AgentToken`
+- 创建取餐码实时活动
+- 创建提醒类实时活动
+- 通过 `activity_id` 取消实时活动
+- 将瑞幸订单信息映射为上岛记取餐码活动
+
+### 使用方式
+
+把这个仓库安装为 Codex skill 后，可以直接说：
+
+```text
+用上岛记创建一个取餐码 A123，店名瑞幸咖啡
+```
+
+或：
+
+```text
+用上岛记十二点提醒我吃饭
+```
+
+首次使用需要提供一个 `p2ia_...` 格式的 `AgentToken`。
+
+## English
+
+This is a Codex Skill for creating, scheduling, and canceling Shangdaoji Live Activities on iPhone through the Shangdaoji Agent API.
+
+It sends only business fields such as pickup codes, store names, product names, reminder titles, and reminder content. It does not ask users to fill in or construct internal Live Activity payloads.
+
+### What It Does
+
+- Saves a local `AgentToken`
+- Creates meal pickup-code Live Activities
+- Creates reminder Live Activities
+- Cancels Live Activities by `activity_id`
+- Maps Luckin order details into Shangdaoji pickup-code activities
+
+### Usage
+
+After installing this repository as a Codex skill, ask:
+
+```text
+Use Shangdaoji to create pickup code A123 for Luckin Coffee.
+```
+
+Or:
+
+```text
+Use Shangdaoji to remind me to eat at noon.
+```
+
+First use requires an `AgentToken` in the `p2ia_...` format.
