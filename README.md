@@ -6,7 +6,7 @@
 
 这是一个可供 AI 助手使用的 skill，也可以作为 Codex plugin 安装。它通过上岛记（PinToIsland）实时活动 API 在 iPhone 上创建、定时或取消实时活动，适合把取餐码、取件码、瑞幸订单和提醒展示到 Live Activity / 灵动岛。
 
-它只发送业务字段，例如取餐码、店名、商品名、提醒标题和提醒内容；不会要求用户填写或构造内部 Live Activity payload。
+它只发送业务字段，例如取餐码、店名、商品名、提醒标题、提醒内容和提醒图标；不会要求用户填写或构造内部 Live Activity payload。
 
 ### 能做什么
 
@@ -52,7 +52,7 @@ codex plugin add shangdaoji-live-activity@pintoisland
 或：
 
 ```text
-用上岛记十二点提醒我吃饭
+用上岛记十二点提醒我吃饭，图标用 🍽️
 ```
 
 首次使用需要提供一个 `p2ia_...` 格式的 token。

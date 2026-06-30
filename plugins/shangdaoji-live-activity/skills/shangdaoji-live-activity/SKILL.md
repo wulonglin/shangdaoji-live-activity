@@ -55,9 +55,12 @@ Use `type: "note"` for reminders:
   "type": "note",
   "title": "吃饭提醒",
   "content": "该吃饭了",
+  "noteIcon": "🍽️",
   "start_time": "2026-06-27 12:00:00"
 }
 ```
+
+Use `noteIcon` for the note emoji/icon when the user provides one or the reminder type makes it obvious.
 
 For time-only requests such as "十二点", use the next occurrence in Asia/Shanghai. If today's time has passed, use tomorrow.
 

@@ -4,7 +4,7 @@ English | [简体中文](README.md)
 
 This is a skill for AI assistants, and it can also be installed as a Codex plugin. It creates, schedules, and cancels PinToIsland Live Activities on iPhone through the PinToIsland Live Activity API. It helps show pickup codes, courier pickup codes, Luckin orders, and reminders in Live Activity / Dynamic Island.
 
-It sends only business fields such as pickup codes, store names, product names, reminder titles, and reminder content. It does not ask users to fill in or construct internal Live Activity payloads.
+It sends only business fields such as pickup codes, store names, product names, reminder titles, reminder content, and reminder icons. It does not ask users to fill in or construct internal Live Activity payloads.
 
 ## What It Does
 
@@ -50,7 +50,7 @@ Use PinToIsland to create pickup code A123 for Luckin Coffee.
 Or:
 
 ```text
-Use PinToIsland to remind me to eat at noon.
+Use PinToIsland to remind me to eat at noon with the 🍽️ icon.
 ```
 
 First use requires a token in the `p2ia_...` format.
