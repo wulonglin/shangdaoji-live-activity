@@ -4,15 +4,18 @@
 
 ## 中文
 
-这是一个可供 AI 助手使用的 skill，也可以作为 Codex plugin 安装。它通过上岛记（PinToIsland）实时活动 API 在 iPhone 上创建、定时或取消实时活动，适合把取餐码、取件码、瑞幸订单和提醒展示到 Live Activity / 灵动岛。
+这是一个可供 AI 助手使用的 skill，也可以作为 Codex plugin 安装。它通过上岛记（PinToIsland）实时活动 API 在 iPhone 上创建、定时或取消实时活动，适合把取餐码、取件码、瑞幸订单、天气早报和提醒展示到 Live Activity / 灵动岛。
 
 它只发送业务字段，例如取餐码、店名、商品名、提醒标题、提醒内容和提醒图标；不会要求用户填写或构造内部 Live Activity payload。
+
+提醒标题默认使用简洁纯文本，emoji 图标放在 `noteIcon`，避免图标和标题重复显示；只有用户明确要求时才在标题中保留 emoji。
 
 ### 能做什么
 
 - 保存本地 `p2ia_...` token
 - 创建取餐码实时活动
 - 创建提醒类实时活动
+- 创建天气早报、出发提醒、喝水吃药等轻提醒
 - 通过 `activity_id` 取消实时活动
 - 将瑞幸订单信息映射为上岛记取餐码活动
 
@@ -52,7 +55,13 @@ codex plugin add shangdaoji-live-activity@pintoisland
 或：
 
 ```text
-用上岛记十二点提醒我吃饭，图标用 🍽️
+用上岛记提醒我 13:30 出发去滨江会议室，图标用 🚕
+```
+
+或：
+
+```text
+每天早上 7:30 用上岛记给我发天气早报，包含温度、降雨概率和穿衣建议
 ```
 
 首次使用需要提供一个 `p2ia_...` 格式的 token。
