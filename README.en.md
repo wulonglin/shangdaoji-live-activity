@@ -8,6 +8,13 @@ It sends only business fields such as pickup codes, store names, product names, 
 
 Reminder titles use concise plain text by default. Put the emoji icon in `noteIcon` to avoid displaying it twice, and keep emoji in the title only when the user explicitly requests it.
 
+## License, Authorization, and Privacy
+
+- The Skill, plugin configuration, and documentation in this repository, unless stated otherwise, are released under the [MIT License](LICENSE).
+- The MIT License does not grant rights to use the Shangdaoji / PinToIsland or Apple trademarks, apps, icons, backend services, or APIs.
+- Use only a `p2ia_...` token that belongs to you or that you are authorized to use. Do not publish or share tokens.
+- See [Usage Terms and Authorization Scope](TERMS.md), [Privacy and Data Handling](PRIVACY.md), and [Notices](NOTICE) for the detailed scope.
+
 ## What It Does
 
 - Saves a local `p2ia_...` token

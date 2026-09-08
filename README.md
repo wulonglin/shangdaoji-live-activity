@@ -10,6 +10,13 @@
 
 提醒标题默认使用简洁纯文本，emoji 图标放在 `noteIcon`，避免图标和标题重复显示；只有用户明确要求时才在标题中保留 emoji。
 
+### 协议、授权与隐私
+
+- 本仓库中的 Skill、插件配置和文档（另有说明除外）以 [MIT License](LICENSE) 发布。
+- MIT License 不授予“上岛记”、 “PinToIsland”、Apple 或其他第三方的商标、App、图标、后端和 API 使用权。
+- 使用本 Skill 必须使用本人或已获授权的 `p2ia_...` token，不得公开或共享 token。
+- 详细的授权范围见 [使用条款与授权范围](TERMS.md)、[隐私与数据处理说明](PRIVACY.md) 和 [第三方与品牌声明](NOTICE)。
+
 ### 能做什么
 
 - 保存本地 `p2ia_...` token
